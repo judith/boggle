@@ -1,0 +1,62 @@
+body {
+	font-family: helvetica;
+}
+table {
+	border: 15px solid #006;
+	padding: 5px;
+	float:right;
+	margin: 20px;
+	border-spacing: 5px;
+	background-color: #008;
+}
+td {
+	font-weight: bold;
+	color: #11c;
+	border: 1px solid #009;
+	padding: 5px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 60px;
+	width: 90px;
+	height: 90px;
+	background-color: #ddd;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+.selected{
+	background-color: #cce;
+}
+.title{
+	font-size: 24px;
+	font-style: italic;
+}
+.word {
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #11c;
+}
+.words {
+	font-weight: bold;
+	color: #11c;
+	font-size: 24px;
+}
+.notaword{
+	color: #ccc;
+	text-decoration:line-through;
+}
+.btn {
+	font-weight: bold;
+	color: #11c;
+	font-size: 24px;
+	width: 100px;
+	margin-right: 15px;
+}
+.circle{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}

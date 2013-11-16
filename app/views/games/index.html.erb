@@ -1,0 +1,18 @@
+<table>
+	<% @grid.each_slice(5) do |row| %>
+	<tr>
+		<% row.each do |cell| %>
+		<td><div class="circle"><%= cell == 'Q' ? 'Qu' : cell %></div></td>
+		<% end %>
+	</tr>
+	<% end %>
+</table>
+<div class="word"></div>
+<input type="button" class="btn" id="send" value="Score Word">
+<input type="button" class="btn" id="suffle" value="Shake Dice">
+<br/><br/>
+<div class="title">Score: <span class="score">0</span></div>
+<div class="title">Words Found</div>
+<div class="words"></div>
+
+
