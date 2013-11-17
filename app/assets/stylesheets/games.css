@@ -23,6 +23,9 @@ td {
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
 }
+.container {
+	width: 900px;
+}
 .selected{
 	background-color: #cce;
 }
